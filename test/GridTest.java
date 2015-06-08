@@ -7,20 +7,13 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 public class GridTest {
-//    @Test
-//    public void shouldReturnTrueIuUnderPopulation(){
-//
-//        Cell cellStub = mock(Cell.class);
-//        when(cellStub.isAlive())
-//                .thenReturn(true);
-//        Grid grid = new Grid();
-//
-//        boolean actual = grid.isUnderPopulation(cell);
-//
-//        assertThat(actual,is(equalTo()));
-//
-//
-//    }
+    @Test
+    public void shouldReturnTrueIuUnderPopulation(){
+
+
+
+
+    }
 
 
 }

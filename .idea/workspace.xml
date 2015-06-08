@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2bda3e7-a398-4f17-96c0-116488fa7493" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/src/classes/Cell.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/classes/CellTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/GameOFLife/Dimension.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/GameOFLife/DimensionsTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/GameOFLife/Grid.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/GameOFLife/GridTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/mockito-all-1.9.0-javadoc.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/mockito-all-1.9.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Grid.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/GridTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GameOFLife/Cell.class" afterPath="$PROJECT_DIR$/out/production/GameOFLife/Cell.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/GameOFLife/CellTest.class" afterPath="$PROJECT_DIR$/out/test/GameOFLife/CellTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Cell.java" afterPath="$PROJECT_DIR$/src/Cell.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GameOFLife/Dimension.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/GameOFLife/DimensionsTest.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/CellTest.java" afterPath="$PROJECT_DIR$/test/CellTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Grid.java" afterPath="$PROJECT_DIR$/src/Grid.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/GridTest.java" afterPath="$PROJECT_DIR$/test/GridTest.java" />
     </list>
     <ignored path="GameOFLife.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,8 +32,8 @@
       <file leaf-file-name="CellTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/CellTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41015625">
-              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.43945312">
+              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/test/GridTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="7" selection-start-line="9" selection-start-column="5" selection-end-line="22" selection-end-column="7" />
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,8 +80,11 @@
         <entry file="file://$PROJECT_DIR$/src/Grid.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-              <folding />
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#123#129#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,9 +122,10 @@
         <option value="$PROJECT_DIR$/test/Cell.java" />
         <option value="$PROJECT_DIR$/build.xml" />
         <option value="$PROJECT_DIR$/test/DimensionsTest.java" />
-        <option value="$PROJECT_DIR$/test/GridTest.java" />
         <option value="$PROJECT_DIR$/src/Dimension.java" />
         <option value="$PROJECT_DIR$/src/Cell.java" />
+        <option value="$PROJECT_DIR$/src/Grid.java" />
+        <option value="$PROJECT_DIR$/test/GridTest.java" />
         <option value="$PROJECT_DIR$/test/CellTest.java" />
       </list>
     </option>
@@ -268,23 +260,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mockito-all-1.9.0.jar!/" />
   </component>
   <component name="RunManager" selected="JUnit.CellTest.shouldReturnVisualRepresentationOfCell">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GameOFLife" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="CellTest.shouldReturnDetailsOfCell" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="GameOFLife" />
@@ -356,6 +331,27 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CellTest" />
       <option name="METHOD_NAME" value="shouldReturnVisualRepresentationOfCell" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CellTest.shouldReturnFalseIfDimesionsPassedAndItsRepresentaionAreDifferent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="GameOFLife" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CellTest" />
+      <option name="METHOD_NAME" value="shouldReturnFalseIfDimesionsPassedAndItsRepresentaionAreDifferent" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -592,18 +588,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CellTest.shouldReturnDetailsOfCell" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CellTest.shouldReturnZeroIfCellIsNotAlive" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DimensionsTest.shouldReturnTrueIfItIsNeighbour" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CellTest.shouldReturnVisualRepresentationOfCell" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CellTest.shouldReturnDetailsOfCell" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CellTest.shouldReturnZeroIfCellIsNotAlive" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DimensionsTest.shouldReturnTrueIfItIsNeighbour" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CellTest.shouldReturnVisualRepresentationOfCell" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CellTest.shouldReturnFalseIfDimesionsPassedAndItsRepresentaionAreDifferent" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.CellTest.shouldReturnVisualRepresentationOfCell" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DimensionsTest.shouldReturnTrueIfItIsNeighbour" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CellTest.shouldReturnZeroIfCellIsNotAlive" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CellTest.shouldReturnDetailsOfCell" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CellTest.shouldReturnFalseIfDimesionsPassedAndItsRepresentaionAreDifferent" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DimensionsTest.shouldReturnTrueIfItIsNeighbour" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CellTest.shouldReturnZeroIfCellIsNotAlive" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CellTest.shouldReturnDetailsOfCell" />
       </list>
     </recent_temporary>
   </component>
@@ -614,12 +611,12 @@
       <created>1433742945925</created>
       <option name="number" value="Default" />
       <updated>1433742945925</updated>
-      <workItem from="1433742947252" duration="3937000" />
+      <workItem from="1433742947252" duration="4350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3937000" />
+    <option name="totallyTimeSpent" value="4350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
@@ -642,7 +639,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -682,7 +679,7 @@
     <entry file="file://$PROJECT_DIR$/test/GridTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="7" selection-start-line="9" selection-start-column="5" selection-end-line="22" selection-end-column="7" />
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -692,8 +689,11 @@
     <entry file="file://$PROJECT_DIR$/src/Grid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#123#129#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -710,8 +710,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/CellTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41015625">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.43945312">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
