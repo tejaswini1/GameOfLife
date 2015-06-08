@@ -26,8 +26,8 @@
       <file leaf-file-name="CellTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/CellTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29296875">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.6738281">
+              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,7 +175,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.CellTest.shouldReturnDetailsOfCell">
+  <component name="RunManager" selected="JUnit.CellTest.shouldReturnZeroIfCellIsNotAlive">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
@@ -201,6 +201,27 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CellTest" />
       <option name="METHOD_NAME" value="shouldReturnDetailsOfCell" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CellTest.shouldReturnZeroIfCellIsNotAlive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="GameOFLife" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CellTest" />
+      <option name="METHOD_NAME" value="shouldReturnZeroIfCellIsNotAlive" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -436,13 +457,15 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.CellTest.shouldReturnDetailsOfCell" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CellTest.shouldReturnZeroIfCellIsNotAlive" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CellTest.shouldReturnDetailsOfCell" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CellTest.shouldReturnZeroIfCellIsNotAlive" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CellTest.shouldReturnDetailsOfCell" />
       </list>
     </recent_temporary>
   </component>
@@ -453,12 +476,12 @@
       <created>1433742945925</created>
       <option name="number" value="Default" />
       <updated>1433742945925</updated>
-      <workItem from="1433742947252" duration="1036000" />
+      <workItem from="1433742947252" duration="1156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1036000" />
+    <option name="totallyTimeSpent" value="1156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
@@ -512,8 +535,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/CellTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29296875">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.6738281">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
