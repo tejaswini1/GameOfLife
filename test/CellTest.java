@@ -7,21 +7,14 @@ import static org.hamcrest.core.IsEqual.equalTo;
 public class CellTest {
 
     @Test
-    public void shouldReturnOneIfCellIsAlive(){
-        Cell cell = new Cell(0, 1, "alive");
+    public void shouldReturnVisualRepresentationOfCell(){
+        Cell cell = new Cell(0, 1);
 
-        int actualDetails = cell.getCellState();
+        String actualDetails = cell.toString();
 
-        assertThat(actualDetails, is(equalTo((1))));
+        assertThat(actualDetails, is(equalTo(("0,1"))));
     }
 
-    @Test
-    public void shouldReturnZeroIfCellIsNotAlive(){
-        Cell cell = new Cell(0, 1, "dead");
 
-        int actualDetails = cell.getCellState();
-
-        assertThat(actualDetails, is(equalTo((0))));
-    }
 
 }
